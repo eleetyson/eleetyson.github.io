@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "wait but why"
+title:      "01: wait but why"
 date:       2020-07-06 14:40:16 -0400
 permalink:  wait_but_why
 ---
