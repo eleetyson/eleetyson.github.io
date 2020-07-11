@@ -11,7 +11,7 @@ Dead-simple products and processes are often very hard to design. Their simplici
 The *request-response cycle* is the process by which one computer requests some information, then another computer processes and responds to that request. 
 
 
-### Request
+### **Request**
 
 In this case, we're using our own computer and our request is to access a specific website, using its *domain name*. 
 
@@ -30,7 +30,7 @@ The full URL for what we refer to as Reddit's website, reddit.com, is actually h
 Very simply, the protocol gives your browser instructions for how to access the given domain name.
 
 
-### Response
+### **Response**
 
 OK. Browser uses DNS to find IP address for domain name, using the given protocol, and finally uses that IP address to send a request to the appropriate servers. Sticking with the Reddit example, we'd be pinging Reddit's servers for Reddit's homepage with reddit.com.
 
@@ -45,7 +45,7 @@ Upon reaching our browser, these packets are finally re-assembled so we can actu
 The steps where packets are divided and re-assembled are done so via a standardized process called *TCP*, or Transmission Control Protocol. The piece in between, sending these packets separately, is completed using a different standardized process, *IP (*Internet Protocol).
 
 
-### Summary
+### **Summary**
 
 There's more nuance involved that I won't touch on here, but as a basic overview of the request-response cycle described above:
 
