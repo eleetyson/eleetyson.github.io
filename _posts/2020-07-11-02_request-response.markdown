@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "02: request-response"
-date:       2020-07-11 15:10:54 +0000
+date:       2020-07-11 11:10:54 -0400
 permalink:  02_request-response
 ---
 
@@ -9,6 +9,7 @@ permalink:  02_request-response
 Dead-simple products and processes are often very hard to design. Their simplicity belies tremendous complexity. For example, what actually happens when we type in a URL and hit Enter?
 
 The *request-response cycle* is the process by which one computer requests some information, then another computer processes and responds to that request. 
+
 
 ### Request
 
@@ -28,19 +29,21 @@ The full URL for what we refer to as Reddit's website, reddit.com, is actually h
 
 Very simply, the protocol gives your browser instructions for how to access the given domain name.
 
+
 ### Response
 
 OK. Browser uses DNS to find IP address for domain name, using the given protocol, and finally uses that IP address to send a request to the appropriate servers. Sticking with the Reddit example, we'd be pinging Reddit's servers for Reddit's homepage with reddit.com.
 
 What now? Reddit's servers recognize that we want to access their homepage so as a response, it will retrieve copies of the files that make up their homepage.
 
-Every website is just a collection of these different files — HTML, CSS, and JavaScript files are the most common types — which enable you, the user, to interact with it.
+Every website is just a collection of these different files — HTML, CSS, and JavaScript files are the most common types — which enable us, the user, to interact with it.
 
 Reddit's servers will divide these files into different *packets*, or smaller chunks of data, and send them back to our browser, using our browser's IP address (which is found using DNS).
 
 Upon reaching our browser, these packets are finally re-assembled so we can actually see and interact with the website as Reddit intended.
 
 The steps where packets are divided and re-assembled are done so via a standardized process called *TCP*, or Transmission Control Protocol. The piece in between, sending these packets separately, is completed using a different standardized process, *IP (*Internet Protocol).
+
 
 ### Summary
 
