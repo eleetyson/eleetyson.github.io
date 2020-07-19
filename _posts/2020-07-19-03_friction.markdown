@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "03: friction"
-date:       2020-07-19 14:30:40 +0000
+date:       2020-07-19 10:30:41 -0400
 permalink:  03_friction
 ---
 
 
 The tech world loves to talk about friction and rightfully so. Friction is annoying. Friction is that spotty internet connection, line at the DMV, conversation we'll just put off until tomorrow type feeling.
 
-So we usually avoid it. We choose the path of least resistance. You could argue that Amazon, Tinder, and Grubhub are not innovative — online shopping, dating, and food delivery have been around for a while now — but that they are simply better at catering to our laziness
+So we usually avoid it. We choose the path of least resistance. You could argue that Tinder and Grubhub are not innovative — online dating and food delivery have been around for a while now — but that they are simply better at catering to our laziness
 
 I won't criticize (it's pretty awesome that anyone can summon dinner on-demand), but instead want to highlight how these tactics are being applied in a separate domain and why that matters.
 
