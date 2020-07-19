@@ -1,0 +1,27 @@
+---
+layout: post
+title:      "03: friction"
+date:       2020-07-19 14:30:40 +0000
+permalink:  03_friction
+---
+
+
+The tech world loves to talk about friction and rightfully so. Friction is annoying. Friction is that spotty internet connection, line at the DMV, conversation we'll just put off until tomorrow type feeling.
+
+So we usually avoid it. We choose the path of least resistance. You could argue that Amazon, Tinder, and Grubhub are not innovative — online shopping, dating, and food delivery have been around for a while now — but that they are simply better at catering to our laziness
+
+I won't criticize (it's pretty awesome that anyone can summon dinner on-demand), but instead want to highlight how these tactics are being applied in a separate domain and why that matters.
+
+Setting up a text editor like VSCode, let alone an entire development environment, is hard. Following a painstakingly detailed guide from Flatiron (many thanks!), it still took me two hours and plenty of wrong turns before finally getting squared away. I can't imagine how many people have tried on their own only to give up out of frustration.
+
+With Repl.it, you can start writing code in about ten seconds. No need for a complicated environment or even to create an account with them.
+
+While engineering managers need their people to use something more powerful, Repl.it is perfect for beginners. And in my opinion, that is where there's an enormous opportunity for positive impact.
+
+Trying something new is always difficult. There will be a lot more people who make this choice, and ultimately a lot more people who attain a hireable level of competency, if beginning is just a little easier. And Repl.it makes beginning easier.
+
+Websites and apps are tiny worlds. In contrast to our messy, unpredictable lives, every last detail of these digital environments can be curated to direct users' actions.
+
+This power comes with the responsibility to consider how we're designing such environments and what actions we're incentivizing.
+
+How would the world look if something like education was addictive?
