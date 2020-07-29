@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "04: regex and abstraction"
-date:       2020-07-29 17:38:09 +0000
+date:       2020-07-29 13:38:10 -0400
 permalink:  04_regex_and_abstraction
 ---
 
@@ -50,7 +50,7 @@ To summarize, we call `#match?` on `"why"` and pass in this specific regex `/[ae
 
 This is very similar to how I checked for any non-digit characters in the user's input for my project. The method itself is long so I've included the relevant pieces below:
 
-```ruby
+```
 def deal_hand
 
 print "Please enter your bet for this hand: "
@@ -66,7 +66,8 @@ input = gets.strip # remove leading / trailing whitespaces and store user input
 	else
 		Blackjack.set_bet(input.to_i) # invokes a different class' method when given valid input
 	end
-
+	
+end
 ```
 
 The if statement here is very similar to our previous example. As we know from this [handy reference](https://rubular.com/), `\D` enables us to catch any non-digit character. 
