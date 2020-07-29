@@ -61,12 +61,11 @@ input = gets.strip # remove leading / trailing whitespaces and store user input
     puts "* please enter an integer, omitting non-digit characters *"
     self.deal_hand
 	elsif input.to_i == 0 || input.to_i == nil
-    puts "* please enter a integer greater than 0, omitting non-digit characters *"
-    self.deal_hand
+	  puts "* please enter an integer greater than 0, omitting non-digit characters *"
 	else
-		Blackjack.set_bet(input.to_i) # invokes a different class' method when given valid input
+	  Blackjack.set_bet(input.to_i) # invokes a different class' method when given valid input
 	end
-	
+		
 end
 ```
 
