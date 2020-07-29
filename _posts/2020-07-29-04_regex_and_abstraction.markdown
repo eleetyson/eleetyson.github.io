@@ -60,10 +60,9 @@ input = gets.strip # remove leading / trailing whitespaces and store user input
   if input.match?(/\D/)
     puts "* please enter an integer, omitting non-digit characters *"
     self.deal_hand
-	#if/else chain continues here..... 
-	end
+#if/else chain continues... 
 		
-end
+ end
 ```
 
 The if statement here is very similar to our previous example. As we know from this [handy reference](https://rubular.com/), `\D` enables us to catch any non-digit character. 
