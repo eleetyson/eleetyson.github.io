@@ -6,7 +6,7 @@ permalink:  04_regex_and_abstraction
 ---
 
 
-As we progress in the curriculum, I'm psyched to go deeper on exception handling and designing durable applications.
+I'm looking forward to going deeper on exception handling and designing durable applications.
 
 In this case though, my project (CLI Blackjack) actually handles some invalid user inputs with a regex — also known as a regular expression.
 
