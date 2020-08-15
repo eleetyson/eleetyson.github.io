@@ -68,6 +68,6 @@ The if statement here is very similar to our previous example. As we know from t
 
 So instead of calling `#match?` on `"why"`, we're simply calling `#match` on a different string — the local variable `input`. We're still checking for a specific set of characters, now we're just looking for any non-digits `/\D/` instead of any vowels `/[aeiouy]/`.
 
-With this CLI project, I needed to get out my narrow perspective and design for what might go wrong, in case users interacted with the app in unintended or undesirable ways.
+With this CLI project, I needed to get out of my narrow perspective and design for what might go wrong, in case users interacted with the app in unintended or undesirable ways.
 
 I was able to do this, in part, by using a common form of abstraction: a regular expression. Even though it's a little more difficult to read because it's less specific, this regex provided the flexibility to write in one line of code what would otherwise take me many more. I'd like to think doing so simplified the user experience.
