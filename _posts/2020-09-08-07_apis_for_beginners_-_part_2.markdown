@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "07: APIs for beginners - part 2"
-date:       2020-09-08 22:54:10 +0000
+date:       2020-09-08 18:54:11 -0400
 permalink:  07_apis_for_beginners_-_part_2
 ---
 
@@ -21,8 +21,6 @@ APIs are interfaces for developers. Just like a mobile app acts as an interface 
 I think APIs are like Lego blocks in that they make building easier. You can always try and manufacture your own blocks instead — you'd have more freedom that way — but it would also be incredibly complicated and time-consuming.
 
 Maybe this analogy makes more sense: on any large team, each individual has a narrowly-defined job. They'll also have a very particular set of skills, skills they've acquired over a very long career, that would make it a nightmare for any rando plucked from a different department to replace them.
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d7dfc1d1-bc02-474e-9574-9812cfce542f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d7dfc1d1-bc02-474e-9574-9812cfce542f/Untitled.png)
 
 By virtue of specialization, the team becomes more than the sum of its parts and does more than they could with a roster of generalists. Similarly, APIs are all about focus.
 
