@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "08: design for devs"
-date:       2020-10-02 19:21:51 +0000
+date:       2020-10-02 15:21:52 -0400
 permalink:  08_design_for_devs
 ---
 
