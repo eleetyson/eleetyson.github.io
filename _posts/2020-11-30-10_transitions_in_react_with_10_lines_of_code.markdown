@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "10: transitions in React with 10 lines of code"
-date:       2020-11-30 16:07:20 +0000
+date:       2020-11-30 11:07:20 -0500
 permalink:  10_transitions_in_react_with_10_lines_of_code
 ---
 
@@ -85,18 +85,15 @@ In one of the code snippets provided, we see that the `TransitionSwitch` compone
 ```jsx
 
 import { Route, BrowserRouter as Router } from 'react-router-dom'
-~~import { Switch } from 'react-router'~~
 import TransitionSwitch from 'react-router-transition-switch'
 import Fader from 'react-fader'
 
 <Router>
-	~~<Switch>~~
   <TransitionSwitch component={Fader}>
     <Route path="/red" component={Red}/>
     <Route path="/green" component={Green} />
     <Route path="/blue" component={Blue} />
   </TransitionSwitch>
-	~~</Switch>~~
 <Router>
 ```
 
@@ -107,8 +104,8 @@ We needed to swap in the `TransitionSwitch` component so that we can pass it a p
 import './App.css'
 import Navbar from './components/Navbar'
 import { Route } from 'react-router-dom'
-**import TransitionSwitch from 'react-router-transition-switch'**
-**import Fader from 'react-fader'**
+import TransitionSwitch from 'react-router-transition-switch'
+import Fader from 'react-fader'
 import Generator from './containers/Generator'
 import IdeasIndex from './containers/IdeasIndex'
 import About from './containers/About'
@@ -117,11 +114,11 @@ const App = () => {
   return (
     <div className="App">
       <Navbar />
-      **<TransitionSwitch component={Fader}>**
+      <TransitionSwitch component={Fader}>
         <Route exact path="/"> <Generator /> </Route>
         <Route exact path="/all"> <IdeasIndex /> </Route>
         <Route exact path="/about"> <About /> </Route>
-      **</TransitionSwitch>**
+      </TransitionSwitch>
     </div>
   )
 
